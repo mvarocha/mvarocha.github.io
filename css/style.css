@@ -204,23 +204,23 @@ body{
     margin-top: 10px;
   }
   .home{
-    position: absolute;
+    position: relative;
     margin-left: 8%;
     margin-top: 243px;
   }
-  .contact{
-    position: absolute;
-    margin-left: 85%;
-    margin-top: 242.5px;
-  }
   .education{
-    position: absolute;
-    margin-top: 242px;
+    position: relative;
+    margin-top: -25px;
     margin-left: 33%;
   }
   .code{
-    position: absolute;
-    margin-top: 242px;
+    position: relative;
+    margin-top: -28px;
     margin-left: 60%;
 
+  }
+  .contact{
+    position: relative;
+    margin-top: -26px;
+    margin-left: 84%;
   }
