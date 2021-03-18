@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Rocha</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="borders" action="">
+        <div class="group">
+
+            <div class="hora">
+                <script type="text/javascript">
+                    function time()
+                    {
+                    today=new Date();
+                    h=today.getHours();
+                    m=today.getMinutes();
+                    document.getElementById('txt').innerHTML=h+":"+m;
+                    setTimeout('time()',500);
+                    }
+                    </script>
+                    
+                    <body onload="time()">
+                    <div id="txt"></div>        
+            </div>
+
+            <div class="bot1"></div>
+            <div class="bot2"></div>
+            <div class="bot3"></div>
+            <div class="bot4"></div>
+            <div class="notch1"></div>
+            <div class="notch2"></div>
+            <div class="notch3"></div>
+            <div class="notch4"></div>
+            <div class="speaker"></div>
+            <div class="cam1"></div>
+            <div class="cam2"></div>
+            <div class="loading"></div>
+            <div class="notice">Em desenvolvimento...</div>
+            <div class="name">by Marcus Rocha</div>
+        </div>
+    </div>
+</body>
+</html>
