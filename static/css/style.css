@@ -58,10 +58,12 @@ body {
 
 .right {
     color: white;
-    width: 21.9%;
+    width: 20%;
     height: 100%;
-    flex-direction: column;
     padding: 0;
+    margin-right: 2%;
+    align-items: flex-end;
+    display: flex;
 }
 
 .content {
