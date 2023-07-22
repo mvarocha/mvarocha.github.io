@@ -1,0 +1,56 @@
+nav {
+  padding: 25px 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav .myName{
+  cursor: default;
+}
+
+nav .navMenu {
+  display: flex;
+  position: relative;
+}
+
+nav .navMenu .marker {
+  content: '';
+  position: absolute;
+  width: 43.14px;
+  /* 43.65 59.2*/
+  height: 2px;
+  background-color: #fff;
+  bottom: -2px;
+  left: 0px;
+  /* 118.14 236.79 */
+  transition: 0.5s;
+}
+
+nav .navMenu a {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+nav .navMenu a:hover {
+  text-shadow: 0px 0px 1px #fff;
+}
+
+nav .navMenu a:not(:last-child) {
+  margin-right: 75px;
+}
+
+nav svg {
+  position: absolute;
+  right: 25px;
+  display: none;
+}
+
+nav svg.sunIcon {
+  display: block;
+  cursor: pointer;
+}
+
+nav a {
+  color: #fff;
+}
