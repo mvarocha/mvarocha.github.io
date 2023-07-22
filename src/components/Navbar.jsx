@@ -1,7 +1,33 @@
+import React, { useEffect } from 'react';
 import '../style/Navbar.css'
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+
+  useEffect(() => {
+    verifyMarker();
+  }, []);
+
+  function verifyMarker() {
+    let marker = document.querySelector('.marker')
+    const url = (window.location.href).split("/").pop().toLowerCase()
+    switch(url){
+      case '':
+      marker.style.left = '0px';
+      marker.style.width = '43.14px';
+      break;
+    case 'about':
+      marker.style.left = '118.14px';
+      marker.style.width = '43.65px'
+      break;
+    case 'projects':
+      marker.style.left = '236.79px';
+      marker.style.width = '59.2px'
+      break;
+      default:
+        break;
+    }
+  }
 
   return (
     <nav>

@@ -1,5 +1,5 @@
 .titleContainer {
-  margin: calc(50vh - 115px) calc(50% - 396.065px);
+  margin: calc(50vh - 69px) calc(50% - 396.065px);
   width: 100%;
   position: absolute;
 }
@@ -8,28 +8,4 @@
   font-family: monospace;
   width: max-content;
   font-size: 40px;
-  /* color: #f4f4f4; */
-}
-
-.titleContainer div {
-  display: flex;
-  height: 37px;
-}
-
-.cursor {
-  width: 15px;
-  height: 36px;
-  border-bottom: solid 5px #fff;
-  animation: blinking 0.5s infinite step-end alternate;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-@keyframes blinking {
-  50% {
-    border-color: transparent;
-  }
 }
